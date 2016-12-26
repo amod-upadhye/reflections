@@ -28,6 +28,14 @@ git status .. shows changes since the last commit
 
 //staging area .. tracks the files to be changed
 
+
+git cmmit message style guide
+Type : subject
+body 
+footer
+types --> feat, fix, docs, style, refactor, test, chore
+http://udacity.github.io/git-styleguide/
+
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 changes in 1 file might affect the other files in Git repository 
 
@@ -42,3 +50,6 @@ Save a project and collaborate with other people
 
 What happens when you initialize a repository? Why do you need to do it?
 On initializing a repository, the Git metadata is stored in .git folder .. It is required to let git start tracking the changes occuring in that directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging Area is like a temporary directory which has all the files you need to track.
