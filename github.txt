@@ -1,0 +1,44 @@
+checking file difference in Windows, to find bugs and changes
+
+fc old_file_name new_file_name
+
+start notepad++ using : start notepad++ file_name
+
+an easy access to entire history can help you revert some of the unneccessary changes
+
+
+git log .. shows all the changes done in the directory
+
+git diff ... shows difference between two commit IDs
+
+git log --stat  ... shows statistics
+
+git log shows the commits in descending order ... new commits on top older commits on bottom
+
+git clone ... to copy directory 
+keep commits small .. per logical change
+
+git checkout ...switch to older commit and check if a bug was introduced in this commit
+
+git bash profile .. to setup git bash profile .. (colors / fonts etc.)
+
+git init ... initialize git repository in an existing directory
+
+git status .. shows changes since the last commit
+
+//staging area .. tracks the files to be changed
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+changes in 1 file might affect the other files in Git repository 
+
+How can you use the commands git log and git diff to view the history of files?
+Git Log shows the history of all the files and Git Diff can be used to show difference between 2 files
+
+How might using version control make you more confident to make changes that could break something?
+Version Control would make me more confident as I know that my changes can be replaced
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Save a project and collaborate with other people
+
+What happens when you initialize a repository? Why do you need to do it?
+On initializing a repository, the Git metadata is stored in .git folder .. It is required to let git start tracking the changes occuring in that directory.
