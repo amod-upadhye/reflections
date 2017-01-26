@@ -1,5 +1,5 @@
 # reflections
-Learning GitHub notes and common Git Commands 
+Contains GitHub notes and common Git Commands 
 
 This contains a list of Git Commands and a sample project for GitHub
 
