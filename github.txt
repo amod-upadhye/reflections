@@ -45,6 +45,21 @@ git remote .. shows if repo has a remote location
 git remote add origin <<github address>>.. adds repo to remote with local reference name origin
 git push origin master ... pushes master branch to remote origin
 
+git pull origin master ... pulls the master branch from remote
+
+git fetch origin -- creates new branch 'origin/master' which has new changes from remote which are not merged into local master branch
+
+to merge branches on GitHub .. Select a branch and click on 'Open a Pull Request Button'
+then Code review options are shown
+
+if the reposiotry is forked from someone else's profile .. add a remote ('upstream') to update changes from that repo to your local (git pull upstream master)
+
+Always create a new branch .. push code to remote branch .. and then pull those changes to master branch.
+(Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch, then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.)
+Do not push code to master directly.. as it needs to be reviewed first.
+git pull = git fetch + git merge
+clone --> copy of a repository
+fork --> copy of someone else's repository (Github to GitHub)
 git commit message style guide
 Type : subject
 body 
